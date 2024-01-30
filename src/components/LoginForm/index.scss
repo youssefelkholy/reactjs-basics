@@ -1,0 +1,26 @@
+form{
+    width: 75%;
+    margin: auto;
+}
+form .input-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+form .input-wrapper > label{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+form .input-wrapper > input {
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form .btn{
+    padding: 10px 20px;
+}
